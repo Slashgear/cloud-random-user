@@ -1,6 +1,7 @@
 const fetch = require('node-fetch');
 const moment = require('moment');
 const fs = require('fs');
+const round = require('lodash.round');
 
 const nbUserToGenerate = Number(process.argv[2]) || 100;
 const fileName = 'data.json';
@@ -12,8 +13,8 @@ const generateLon = () => Math.random() * 180;
 
 const generateRandomPosition  = () => {
     return {
-        lat: generateSign() * generateLat(),
-        lon: generateSign() * generateLon()
+        lat: round(generateSign() * generateLat(),6),
+        lon: round(generateSign() * generateLon(),6)
     }
 };
 

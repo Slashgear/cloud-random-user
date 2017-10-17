@@ -7,6 +7,7 @@
   "author": "Antoine Caron <antoine.caron@zenika.com>",
   "license": "MIT",
   "dependencies": {
+    "lodash.round": "4.0.4",
     "moment": "2.19.1",
     "node-fetch": "1.7.3"
   },
