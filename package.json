@@ -1,0 +1,16 @@
+{
+  "name": "cloud-random-user",
+  "version": "1.0.0",
+  "description": "Generate random user",
+  "main": "index.js",
+  "repository": "git@github.com:Slashgear/cloud-random-user.git",
+  "author": "Antoine Caron <antoine.caron@zenika.com>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "2.19.1",
+    "node-fetch": "1.7.3"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  }
+}
