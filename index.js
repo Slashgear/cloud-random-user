@@ -29,7 +29,7 @@ fetch(`https://randomuser.me/api/?results=${nbUserToGenerate}`)
                 firstName: user.name.first,
                 lastName: user.name.last,
                 position: generateRandomPosition(),
-                birthDay: moment(user.dob).format('L'),
+                birthDay: moment(user.dob.date).format('L'),
             };
             persistedUsers.push(persistedUser);
 
