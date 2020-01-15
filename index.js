@@ -2,6 +2,7 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const fs = require('fs');
 const round = require('lodash.round');
+moment.locale('en-us');
 
 const nbUserToGenerate = Number(process.argv[2]) || 100;
 const fileName = 'data.json';
