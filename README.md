@@ -1,6 +1,34 @@
 # Random user generator
 
+## Install
+
+```shell script
+npm install -g cloud-random-user
+```
+
+or
+
+```shell script
+npm install -g @slashgear/cloud-random-user
+```
+
+## Usage
+
+Generate 100 users:
+
+```shell script
+cloud-random-user 
+```
+
+Generate 10 users:
+
+```shell script
+cloud-random-user 10
+```
+
 Generate random user for https://slashgear.github.io/cloud/#/
+
+User structure:
 
 ````json
 {

@@ -2,6 +2,14 @@
   "name": "cloud-random-user",
   "version": "1.3.0",
   "description": "Generate random user",
+  "keywords": [
+    "random",
+    "user",
+    "generator"
+  ],
+  "bin": {
+    "cloud-random-user": "./index.js"
+  },
   "main": "index.js",
   "repository": "git@github.com:Slashgear/cloud-random-user.git",
   "author": "Antoine Caron <antoine.caron@zenika.com>",
